@@ -1,0 +1,3 @@
+dyld: Library not loaded: /usr/local/opt/openssl/lib/libssl.1.0.0.dylib
+  Referenced from: /usr/local/bin/wget
+  Reason: image not found
