@@ -6,6 +6,9 @@ testing_types = [
   { 'name': 'unit testing', 'description': 'testing individual units of source code' }
 ]
 
+@app.route('/')
+def get_tests():
+  return jsonify(testing_types)
 
 @app.route('/tests')
 def get_tests():
